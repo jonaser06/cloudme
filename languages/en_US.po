@@ -1,0 +1,2322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cloudme v1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-11-22 02:43:32+0000\n"
+"Last-Translator: admin <admin@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:11
+#@ cloudme
+msgid "404"
+msgstr ""
+
+#: 404.php:13
+#@ cloudme
+msgid "The page you are looking for no longer exists. <br>Perhaps you can return back to the sites homepage see you can find what you are looking for."
+msgstr ""
+
+#: 404.php:15
+#@ cloudme
+msgid "Back To Home"
+msgstr ""
+
+#: archive.php:16
+#: author.php:16
+#: category.php:16
+#: framework/theme-options.php:34
+#: index.php:16
+#: search.php:16
+#: tag.php:16
+#@ cloudme
+msgid "Blog"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+#@ cloudme
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+#@ cloudme
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:25
+#@ cloudme
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+#@ cloudme
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:28
+#@ cloudme
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:31
+#@ cloudme
+msgid "Archives"
+msgstr ""
+
+#: archive.php:59
+#: author.php:43
+#: category.php:43
+#: index.php:55
+#: page-templates/template-blog-list.php:61
+#: search.php:43
+#: tag.php:43
+#@ cloudme
+msgid "Nothing Found Here!"
+msgstr ""
+
+#: author.php:19
+#, php-format
+#@ cloudme
+msgid "All posts by: %s"
+msgstr ""
+
+#: category.php:19
+#, php-format
+#@ cloudme
+msgid "Category: %s"
+msgstr ""
+
+#: comments.php:23
+#@ cloudme
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:24
+#@ cloudme
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:29
+#@ cloudme
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:44
+#@ cloudme
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:50
+#@ cloudme
+msgid "Post Comment"
+msgstr ""
+
+#: content-audio.php:15
+#: content-gallery.php:19
+#: content-image.php:16
+#: content-video.php:15
+#: content.php:7
+#@ cloudme
+msgid "Read More"
+msgstr ""
+
+#: content-audio.php:17
+#: content-gallery.php:21
+#: content-image.php:18
+#: content-video.php:17
+#: content.php:9
+#: single.php:39
+#@ cloudme
+msgid "Written by"
+msgstr ""
+
+#: footer.php:27
+#@ cloudme
+msgid "LIVE CHAT"
+msgstr ""
+
+#: footer.php:32
+#@ cloudme
+msgid "E-MAIL US"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:334
+#: functions.php:595
+#@ cloudme
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:335
+#: functions.php:596
+#@ cloudme
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:337
+#: functions.php:597
+#, php-format
+#@ cloudme
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:340
+#: functions.php:598
+#@ cloudme
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:343
+#: functions.php:600
+#, php-format
+#@ cloudme
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:349
+#: functions.php:605
+#, php-format
+#@ cloudme
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:355
+#: functions.php:630
+#, php-format
+#@ cloudme
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:361
+#, php-format
+#@ cloudme
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:367
+#: functions.php:615
+#, php-format
+#@ cloudme
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:373
+#: functions.php:620
+#, php-format
+#@ cloudme
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:378
+#: functions.php:640
+#@ cloudme
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:383
+#@ cloudme
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:388
+#: functions.php:645
+#@ cloudme
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:392
+#: functions.php:649
+#@ cloudme
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:394
+#: framework/class-tgm-plugin-activation.php:3244
+#: functions.php:650
+#@ cloudme
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:397
+#, php-format
+#@ cloudme
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:399
+#, php-format
+#@ cloudme
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: framework/class-tgm-plugin-activation.php:401
+#, php-format
+#@ cloudme
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:402
+#@ cloudme
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:404
+#: functions.php:652
+#@ cloudme
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:607
+#@ cloudme
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:608
+#@ cloudme
+msgid "Update Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:393
+#: framework/class-tgm-plugin-activation.php:912
+#: framework/class-tgm-plugin-activation.php:2618
+#: framework/class-tgm-plugin-activation.php:3665
+#@ cloudme
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+#@ cloudme
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+#: framework/class-tgm-plugin-activation.php:1022
+#@ cloudme
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1022
+#@ cloudme
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1206
+#: framework/class-tgm-plugin-activation.php:3033
+#@ cloudme
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2358
+#@ cloudme
+msgid "Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2361
+#@ cloudme
+msgid "Recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2377
+#@ cloudme
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2380
+#@ cloudme
+msgid "External Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2383
+#@ cloudme
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2400
+#@ cloudme
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2404
+#@ cloudme
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2406
+#@ cloudme
+msgid "Active"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2412
+#@ cloudme
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2415
+#@ cloudme
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2418
+#@ cloudme
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2473
+#, php-format
+#@ cloudme
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2477
+#, php-format
+#@ cloudme
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2481
+#, php-format
+#@ cloudme
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2485
+#, php-format
+#@ cloudme
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2567
+#@ cloudme
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2575
+#@ cloudme
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2583
+#@ cloudme
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2595
+#@ cloudme
+msgid "Available version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2632
+#@ cloudme
+msgid "Plugin"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2633
+#@ cloudme
+msgid "Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2634
+#@ cloudme
+msgid "Type"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2638
+#@ cloudme
+msgid "Version"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2639
+#@ cloudme
+msgid "Status"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2769
+#@ cloudme
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2802
+#@ cloudme
+msgid "Install"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2808
+#@ cloudme
+msgid "Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2811
+#@ cloudme
+msgid "Activate"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2842
+#@ cloudme
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2844
+#@ cloudme
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2885
+#@ cloudme
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2887
+#@ cloudme
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2993
+#@ cloudme
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3019
+#@ cloudme
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/class-tgm-plugin-activation.php:3037
+#: framework/class-tgm-plugin-activation.php:395
+#@ cloudme
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:3243
+#@ cloudme
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3583
+#, php-format
+#@ cloudme
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/class-tgm-plugin-activation.php:3586
+#, php-format
+#@ cloudme
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3588
+#, php-format
+#@ cloudme
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3592
+#@ cloudme
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3594
+#, php-format
+#@ cloudme
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#: framework/class-tgm-plugin-activation.php:3602
+#@ cloudme
+msgid "Show Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#: framework/class-tgm-plugin-activation.php:3602
+#@ cloudme
+msgid "Hide Details"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3595
+#@ cloudme
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3597
+#, php-format
+#@ cloudme
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3600
+#@ cloudme
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3602
+#, php-format
+#@ cloudme
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3603
+#@ cloudme
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3605
+#, php-format
+#@ cloudme
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/meta-boxes.php:25
+#@ cloudme
+msgid "Format Details"
+msgstr ""
+
+#: framework/meta-boxes.php:39
+#@ cloudme
+msgid "Image"
+msgstr ""
+
+#: framework/meta-boxes.php:53
+#@ cloudme
+msgid "Gallery"
+msgstr ""
+
+#: framework/meta-boxes.php:65
+#@ cloudme
+msgid "Quote"
+msgstr ""
+
+#: framework/meta-boxes.php:81
+#@ cloudme
+msgid "Author"
+msgstr ""
+
+#: framework/meta-boxes.php:93
+#@ cloudme
+msgid "Audio"
+msgstr ""
+
+#: framework/meta-boxes.php:111
+#@ cloudme
+msgid "Video"
+msgstr ""
+
+#: framework/meta-boxes.php:136
+#@ cloudme
+msgid "Testimonial Details"
+msgstr ""
+
+#: framework/meta-boxes.php:150
+#@ cloudme
+msgid "Extra Info"
+msgstr ""
+
+#: framework/meta-boxes.php:163
+#@ cloudme
+msgid "Testimoial Image"
+msgstr ""
+
+#: framework/meta-boxes.php:174
+#@ cloudme
+msgid "Testimoial Video"
+msgstr ""
+
+#: framework/meta-boxes.php:196
+#@ cloudme
+msgid "Page Details"
+msgstr ""
+
+#: framework/meta-boxes.php:210
+#@ cloudme
+msgid "Page Subtitle"
+msgstr ""
+
+#: framework/meta-boxes.php:221
+#@ cloudme
+msgid "Color Subtitle"
+msgstr ""
+
+#: framework/meta-boxes.php:230
+#: framework/theme-options.php:104
+#@ cloudme
+msgid "Background Image Header"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:41
+#: framework/theme-options/inc/class-admin.php:129
+#@ cloudme
+msgid "Theme Options"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:62
+#@ cloudme
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:101
+#@ cloudme
+msgid "This action can't be undo. Are you sure want to reset?"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:102
+#@ cloudme
+msgid "All previous data will be overwritten and can't be undo. Are you sure want to import?"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:103
+#@ cloudme
+msgid "Select Image"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:104
+#@ cloudme
+msgid "Select Images"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:123
+#@ cloudme
+msgid "Support"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:125
+#@ cloudme
+msgid "Documentation"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:132
+#@ cloudme
+msgid " by "
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:155
+#@ cloudme
+msgid "Quick Search"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:158
+#@ cloudme
+msgid "Reset Options"
+msgstr ""
+
+#: framework/theme-options/inc/class-admin.php:159
+#@ cloudme
+msgid "Save Changes"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:434
+#: framework/theme-options/inc/class-fields.php:707
+#@ cloudme
+msgid "Upload Image"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:435
+#: framework/theme-options/inc/class-fields.php:708
+#@ cloudme
+msgid "Remove Image"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:459
+#@ cloudme
+msgid "Upload Images"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:616
+#@ cloudme
+msgid "Select"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:619
+#@ cloudme
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:625
+#@ cloudme
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:632
+#: framework/theme-options/inc/class-fields.php:636
+#: framework/theme-options/inc/class-fields.php:773
+#@ cloudme
+msgid "Size"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:639
+#@ cloudme
+msgid "Font Family"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:642
+#@ cloudme
+msgid "Family"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:646
+#: framework/theme-options/inc/class-fields.php:650
+#: framework/theme-options.php:46
+#@ cloudme
+msgid "Style"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:654
+#: framework/theme-options/inc/class-fields.php:657
+#: framework/theme-options/inc/class-fields.php:765
+#@ cloudme
+msgid "Color"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:717
+#@ cloudme
+msgid "Horizontal Position"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:719
+#@ cloudme
+msgid "Left"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:720
+#: framework/theme-options/inc/class-fields.php:731
+#@ cloudme
+msgid "Center"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:721
+#@ cloudme
+msgid "Right"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:728
+#@ cloudme
+msgid "Vertical Position"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:730
+#@ cloudme
+msgid "Top"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:732
+#@ cloudme
+msgid "Bottom"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:741
+#: framework/theme-options/inc/class-fields.php:743
+#@ cloudme
+msgid "Repeat"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:744
+#@ cloudme
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:745
+#@ cloudme
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:746
+#@ cloudme
+msgid "No Repeat"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:753
+#@ cloudme
+msgid "Attachment"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:755
+#@ cloudme
+msgid "Scroll"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:756
+#@ cloudme
+msgid "Fixed"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:775
+#@ cloudme
+msgid "Normal"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:776
+#@ cloudme
+msgid "Contain"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:777
+#@ cloudme
+msgid "Cover"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:816
+#@ cloudme
+msgid "Facebook"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:817
+#@ cloudme
+msgid "Twitter"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:818
+#@ cloudme
+msgid "Google"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:819
+#@ cloudme
+msgid "Tumblr"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:820
+#@ cloudme
+msgid "Flickr"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:821
+#@ cloudme
+msgid "Vimeo"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:822
+#@ cloudme
+msgid "Youtube"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:823
+#@ cloudme
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:824
+#@ cloudme
+msgid "Pinterest"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:825
+#@ cloudme
+msgid "Dribbble"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:826
+#@ cloudme
+msgid "Behance"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:827
+#@ cloudme
+msgid "SoundCloud"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:828
+#@ cloudme
+msgid "Spotify"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:829
+#@ cloudme
+msgid "GitHub"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:830
+#@ cloudme
+msgid "Instagram"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:831
+#@ cloudme
+msgid "Picasa"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:832
+#@ cloudme
+msgid "Sportify"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:833
+#@ cloudme
+msgid "Foursquare"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:834
+#@ cloudme
+msgid "Lastfm"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:848
+#@ cloudme
+msgid "Remove"
+msgstr ""
+
+#: framework/theme-options/inc/class-fields.php:1039
+#@ cloudme
+msgid "Import Options"
+msgstr ""
+
+#: framework/theme-options.php:30
+#@ cloudme
+msgid "General"
+msgstr ""
+
+#: framework/theme-options.php:38
+#@ cloudme
+msgid "WHMCS"
+msgstr ""
+
+#: framework/theme-options.php:42
+#@ cloudme
+msgid "Footer"
+msgstr ""
+
+#: framework/theme-options.php:50
+#@ cloudme
+msgid "Backup - Restore"
+msgstr ""
+
+#: framework/theme-options.php:59
+#@ cloudme
+msgid "Logo"
+msgstr ""
+
+#: framework/theme-options.php:64
+#@ cloudme
+msgid "Home Screen Icons"
+msgstr ""
+
+#: framework/theme-options.php:65
+#@ cloudme
+msgid "Select image file that will be displayed on home screen of handheld devices."
+msgstr ""
+
+#: framework/theme-options.php:71
+#@ cloudme
+msgid "IPad Retina (144x144px)"
+msgstr ""
+
+#: framework/theme-options.php:76
+#@ cloudme
+msgid "IPad (72x72px)"
+msgstr ""
+
+#: framework/theme-options.php:82
+#@ cloudme
+msgid "IPhone Retina (114x114px)"
+msgstr ""
+
+#: framework/theme-options.php:88
+#@ cloudme
+msgid "IPhone (57x57px)"
+msgstr ""
+
+#: framework/theme-options.php:94
+#@ cloudme
+msgid "Sticky Menu"
+msgstr ""
+
+#: framework/theme-options.php:95
+#@ cloudme
+msgid "Enable sticky the menu on the top of site"
+msgstr ""
+
+#: framework/theme-options.php:109
+#@ cloudme
+msgid "Excerpt Length"
+msgstr ""
+
+#: framework/theme-options.php:116
+#@ cloudme
+msgid "Show Author Info"
+msgstr ""
+
+#: framework/theme-options.php:117
+#@ cloudme
+msgid "Enable author info on the single blog"
+msgstr ""
+
+#: framework/theme-options.php:126
+#: vc_shortcode.php:1066
+#@ cloudme
+msgid "Background Header"
+msgstr ""
+
+#: framework/theme-options.php:127
+#@ cloudme
+msgid "Upload background image header WHMCS page"
+msgstr ""
+
+#: framework/theme-options.php:132
+#@ cloudme
+msgid "Background Banner"
+msgstr ""
+
+#: framework/theme-options.php:133
+#@ cloudme
+msgid "Upload background image banner WHMCS page"
+msgstr ""
+
+#: framework/theme-options.php:141
+#@ cloudme
+msgid "Top Footer"
+msgstr ""
+
+#: framework/theme-options.php:147
+#@ cloudme
+msgid "Address"
+msgstr ""
+
+#: framework/theme-options.php:153
+#@ cloudme
+msgid "Phone Number"
+msgstr ""
+
+#: framework/theme-options.php:159
+#@ cloudme
+msgid "Live Chat Link"
+msgstr ""
+
+#: framework/theme-options.php:165
+#@ cloudme
+msgid "Email Link"
+msgstr ""
+
+#: framework/theme-options.php:171
+#@ cloudme
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/theme-options.php:176
+#@ cloudme
+msgid "Footer Background"
+msgstr ""
+
+#: framework/theme-options.php:181
+#@ cloudme
+msgid "Socials"
+msgstr ""
+
+#: framework/theme-options.php:183
+#@ cloudme
+msgid "Click to social icon to add link"
+msgstr ""
+
+#: framework/theme-options.php:190
+#@ cloudme
+msgid "Custom Color Scheme"
+msgstr ""
+
+#: framework/theme-options.php:191
+#@ cloudme
+msgid "Enable custom color scheme to pick your own color scheme"
+msgstr ""
+
+#: framework/theme-options.php:203
+#@ cloudme
+msgid "Custom Primary Color"
+msgstr ""
+
+#: framework/theme-options.php:208
+#@ cloudme
+msgid "Custom Secondary Color"
+msgstr ""
+
+#: framework/theme-options.php:217
+#@ cloudme
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/theme-options.php:220
+#@ cloudme
+msgid "Enter your custom style rules here"
+msgstr ""
+
+#: framework/theme-options.php:227
+#@ cloudme
+msgid "Backup Settings"
+msgstr ""
+
+#: framework/theme-options.php:228
+#@ cloudme
+msgid "You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \"Import Options\" button above"
+msgstr ""
+
+#: functions.php:54
+#@ cloudme
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:69
+#@ cloudme
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:214
+#@ cloudme
+msgid "WHOIS server not found for that TLD"
+msgstr ""
+
+#: functions.php:241
+#@ cloudme
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:243
+#@ cloudme
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+#: functions.php:250
+#@ cloudme
+msgid "Footer One Widget Area"
+msgstr ""
+
+#: functions.php:252
+#: functions.php:262
+#: functions.php:272
+#: functions.php:282
+#@ cloudme
+msgid "Footer Widget that appears on the Footer."
+msgstr ""
+
+#: functions.php:260
+#@ cloudme
+msgid "Footer Two Widget Area"
+msgstr ""
+
+#: functions.php:270
+#@ cloudme
+msgid "Footer Three Widget Area"
+msgstr ""
+
+#: functions.php:280
+#@ cloudme
+msgid "Footer Fourth Widget Area"
+msgstr ""
+
+#: functions.php:393
+#@ cloudme
+msgid "Search & Press Enter"
+msgstr ""
+
+#: functions.php:407
+#, php-format
+#@ cloudme
+msgid "%s"
+msgstr ""
+
+#: functions.php:412
+#@ cloudme
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:434
+#@ cloudme
+msgid "Fullwidth"
+msgstr ""
+
+#: functions.php:437
+#@ cloudme
+msgid "No"
+msgstr ""
+
+#: functions.php:438
+#@ cloudme
+msgid "Yes"
+msgstr ""
+
+#: functions.php:440
+#@ cloudme
+msgid "Select Fullwidth or not, Default: No fullwidth"
+msgstr ""
+
+#: functions.php:448
+#@ cloudme
+msgid "Animation"
+msgstr ""
+
+#: functions.php:451
+#@ cloudme
+msgid "None"
+msgstr ""
+
+#: functions.php:452
+#@ cloudme
+msgid "fade In"
+msgstr ""
+
+#: functions.php:453
+#@ cloudme
+msgid "fade InUp"
+msgstr ""
+
+#: functions.php:454
+#@ cloudme
+msgid "fade InDown"
+msgstr ""
+
+#: functions.php:455
+#@ cloudme
+msgid "fade InLeft"
+msgstr ""
+
+#: functions.php:456
+#@ cloudme
+msgid "fade InRight"
+msgstr ""
+
+#: functions.php:457
+#@ cloudme
+msgid "zoom In"
+msgstr ""
+
+#: functions.php:464
+#@ cloudme
+msgid "Animation Time"
+msgstr ""
+
+#: functions.php:468
+#@ cloudme
+msgid "Input time show column. Example: 0.6"
+msgstr ""
+
+#: functions.php:610
+#, php-format
+#@ cloudme
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:625
+#, php-format
+#@ cloudme
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:635
+#, php-format
+#@ cloudme
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:651
+#, php-format
+#@ cloudme
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: index.php:19
+#@ cloudme
+msgid "THE LATEST CLOUDME NEWS"
+msgstr ""
+
+#: page-templates/template-canvas.php:15
+#: page-templates/template-whmcs.php:15
+#@ cloudme
+msgid "Page Canvas For Page Builder"
+msgstr ""
+
+#: page.php:60
+#: single.php:91
+#@ cloudme
+msgid "Pages:"
+msgstr ""
+
+#: page.php:64
+#: single.php:95
+#@ cloudme
+msgid "Page"
+msgstr ""
+
+#: search.php:19
+#, php-format
+#@ cloudme
+msgid "Search results for: %s"
+msgstr ""
+
+#: shortcodes.php:257
+#@ cloudme
+msgid "Enter your domain"
+msgstr ""
+
+#: shortcodes.php:278
+#@ cloudme
+msgid "Search"
+msgstr ""
+
+#: shortcodes.php:283
+#@ cloudme
+msgid "ORDER NOW"
+msgstr ""
+
+#: shortcodes.php:742
+#: vc_shortcode.php:1105
+#@ cloudme
+msgid "CPU"
+msgstr ""
+
+#: shortcodes.php:743
+#@ cloudme
+msgid "RAM"
+msgstr ""
+
+#: shortcodes.php:744
+#: vc_shortcode.php:1110
+#@ cloudme
+msgid "Disk Space"
+msgstr ""
+
+#: shortcodes.php:745
+#: vc_shortcode.php:1120
+#@ cloudme
+msgid "Bandwidth"
+msgstr ""
+
+#: single.php:18
+#@ cloudme
+msgid "Single Blog"
+msgstr ""
+
+#: single.php:110
+#@ cloudme
+msgid "Next Post"
+msgstr ""
+
+#: single.php:111
+#@ cloudme
+msgid "Next post:"
+msgstr ""
+
+#: single.php:112
+#@ cloudme
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:113
+#@ cloudme
+msgid "Previous post:"
+msgstr ""
+
+#: tag.php:19
+#, php-format
+#@ cloudme
+msgid "Tags: %s"
+msgstr ""
+
+#: vc_shortcode.php:9
+#@ cloudme
+msgid "OT Button"
+msgstr ""
+
+#: vc_shortcode.php:29
+#@ cloudme
+msgid "Button Text"
+msgstr ""
+
+#: vc_shortcode.php:46
+#: vc_shortcode.php:168
+#: vc_shortcode.php:311
+#@ cloudme
+msgid "Button Link"
+msgstr ""
+
+#: vc_shortcode.php:64
+#@ cloudme
+msgid "Button Type"
+msgstr ""
+
+#: vc_shortcode.php:70
+#@ cloudme
+msgid "Default"
+msgstr ""
+
+#: vc_shortcode.php:72
+#@ cloudme
+msgid "Primary"
+msgstr ""
+
+#: vc_shortcode.php:74
+#@ cloudme
+msgid "Info"
+msgstr ""
+
+#: vc_shortcode.php:76
+#@ cloudme
+msgid "Success"
+msgstr ""
+
+#: vc_shortcode.php:78
+#@ cloudme
+msgid "Warning"
+msgstr ""
+
+#: vc_shortcode.php:80
+#@ cloudme
+msgid "Danger"
+msgstr ""
+
+#: vc_shortcode.php:94
+#@ cloudme
+msgid "Button Size"
+msgstr ""
+
+#: vc_shortcode.php:100
+#@ cloudme
+msgid "Regular size"
+msgstr ""
+
+#: vc_shortcode.php:102
+#@ cloudme
+msgid "Large"
+msgstr ""
+
+#: vc_shortcode.php:104
+#@ cloudme
+msgid "Small"
+msgstr ""
+
+#: vc_shortcode.php:118
+#@ cloudme
+msgid "Not Radius ?"
+msgstr ""
+
+#: vc_shortcode.php:133
+#@ cloudme
+msgid "OT Home Image"
+msgstr ""
+
+#: vc_shortcode.php:151
+#: vc_shortcode.php:294
+#@ cloudme
+msgid "Slide Text(Big Text)"
+msgstr ""
+
+#: vc_shortcode.php:154
+#: vc_shortcode.php:297
+#@ cloudme
+msgid "Enter text for slider (Note: divide with ','). Example: text1, text2, text3."
+msgstr ""
+
+#: vc_shortcode.php:160
+#: vc_shortcode.php:250
+#: vc_shortcode.php:303
+#: vc_shortcode.php:552
+#: vc_shortcode.php:628
+#@ cloudme
+msgid "Label Button"
+msgstr ""
+
+#: vc_shortcode.php:179
+#: vc_shortcode.php:488
+#@ cloudme
+msgid "Upload image background."
+msgstr ""
+
+#: vc_shortcode.php:185
+#: vc_shortcode.php:494
+#@ cloudme
+msgid "Min height"
+msgstr ""
+
+#: vc_shortcode.php:188
+#: vc_shortcode.php:497
+#@ cloudme
+msgid "Min height section. Default: 580px"
+msgstr ""
+
+#: vc_shortcode.php:196
+#@ cloudme
+msgid "Home Slider"
+msgstr ""
+
+#: vc_shortcode.php:205
+#@ cloudme
+msgid "Slider Speed"
+msgstr ""
+
+#: vc_shortcode.php:210
+#@ cloudme
+msgid "Image Bottom Slider"
+msgstr ""
+
+#: vc_shortcode.php:216
+#: vc_shortcode.php:754
+#: vc_shortcode.php:1081
+#@ cloudme
+msgid "Extra class name"
+msgstr ""
+
+#: vc_shortcode.php:218
+#: vc_shortcode.php:756
+#: vc_shortcode.php:1083
+#@ cloudme
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: vc_shortcode.php:226
+#@ cloudme
+msgid "Slide Item"
+msgstr ""
+
+#: vc_shortcode.php:235
+#@ cloudme
+msgid "Image Slide"
+msgstr ""
+
+#: vc_shortcode.php:240
+#@ cloudme
+msgid "Big Text Slide"
+msgstr ""
+
+#: vc_shortcode.php:245
+#@ cloudme
+msgid "Small Text Slide"
+msgstr ""
+
+#: vc_shortcode.php:255
+#: vc_shortcode.php:561
+#: vc_shortcode.php:638
+#@ cloudme
+msgid "Link Button"
+msgstr ""
+
+#: vc_shortcode.php:276
+#@ cloudme
+msgid "OT Background Video"
+msgstr ""
+
+#: vc_shortcode.php:322
+#@ cloudme
+msgid "Input link mp4 video html5."
+msgstr ""
+
+#: vc_shortcode.php:331
+#@ cloudme
+msgid "Input link webm video html5"
+msgstr ""
+
+#: vc_shortcode.php:340
+#@ cloudme
+msgid "Input link ogv video html5."
+msgstr ""
+
+#: vc_shortcode.php:349
+#@ cloudme
+msgid "Extra Options"
+msgstr ""
+
+#: vc_shortcode.php:358
+#@ cloudme
+msgid "Upload image bottom."
+msgstr ""
+
+#: vc_shortcode.php:368
+#@ cloudme
+msgid "OT Call To Action"
+msgstr ""
+
+#: vc_shortcode.php:421
+#@ cloudme
+msgid "OT Search Domain Form"
+msgstr ""
+
+#: vc_shortcode.php:431
+#@ cloudme
+msgid "Title(Small text)"
+msgstr ""
+
+#: vc_shortcode.php:439
+#@ cloudme
+msgid "Subtitle(Big Text)"
+msgstr ""
+
+#: vc_shortcode.php:447
+#@ cloudme
+msgid "Link WHMCS"
+msgstr ""
+
+#: vc_shortcode.php:450
+#@ cloudme
+msgid ""
+"Enter link your whmcs,<br> \n"
+"          Example 1: http://demo.vegatheme.com/cloudme/whmcs-bridge <br>\n"
+"          Example 2: http://demo.vegatheme.com/whmcs6"
+msgstr ""
+
+#: vc_shortcode.php:458
+#@ cloudme
+msgid "Use WHMCS Bridge?"
+msgstr ""
+
+#: vc_shortcode.php:461
+#@ cloudme
+msgid "Tick this if link WHMCS like as: http://demo.vegatheme.com/cloudme/whmcs-bridge"
+msgstr ""
+
+#: vc_shortcode.php:467
+#@ cloudme
+msgid "List Domains"
+msgstr ""
+
+#: vc_shortcode.php:470
+#@ cloudme
+msgid "List Domain show in silder. Follow structure: .com|.net|.info"
+msgstr ""
+
+#: vc_shortcode.php:476
+#@ cloudme
+msgid "Change Image Loading"
+msgstr ""
+
+#: vc_shortcode.php:479
+#@ cloudme
+msgid "Upload image loading search."
+msgstr ""
+
+#: vc_shortcode.php:485
+#@ cloudme
+msgid "Background Image"
+msgstr ""
+
+#: vc_shortcode.php:506
+#@ cloudme
+msgid "OT Pricing Table"
+msgstr ""
+
+#: vc_shortcode.php:516
+#: vc_shortcode.php:590
+#: vc_shortcode.php:708
+#@ cloudme
+msgid "Title Pricing"
+msgstr ""
+
+#: vc_shortcode.php:519
+#: vc_shortcode.php:593
+#: vc_shortcode.php:711
+#@ cloudme
+msgid "Title display in Pricing Table."
+msgstr ""
+
+#: vc_shortcode.php:525
+#: vc_shortcode.php:599
+#@ cloudme
+msgid "Price Pricing"
+msgstr ""
+
+#: vc_shortcode.php:528
+#: vc_shortcode.php:603
+#@ cloudme
+msgid "Price display in Pricing Table."
+msgstr ""
+
+#: vc_shortcode.php:534
+#: vc_shortcode.php:609
+#@ cloudme
+msgid "Time"
+msgstr ""
+
+#: vc_shortcode.php:537
+#: vc_shortcode.php:613
+#@ cloudme
+msgid "Per Month or Year display in Pricing Table."
+msgstr ""
+
+#: vc_shortcode.php:543
+#: vc_shortcode.php:619
+#: vc_shortcode.php:717
+#@ cloudme
+msgid "Detail Pricing"
+msgstr ""
+
+#: vc_shortcode.php:546
+#: vc_shortcode.php:622
+#: vc_shortcode.php:720
+#@ cloudme
+msgid "Content Pricing Table."
+msgstr ""
+
+#: vc_shortcode.php:555
+#: vc_shortcode.php:632
+#@ cloudme
+msgid "Text display in button."
+msgstr ""
+
+#: vc_shortcode.php:564
+#: vc_shortcode.php:642
+#@ cloudme
+msgid "Link in button."
+msgstr ""
+
+#: vc_shortcode.php:572
+#@ cloudme
+msgid "OT Pricing Table Compare"
+msgstr ""
+
+#: vc_shortcode.php:582
+#: vc_shortcode.php:700
+#@ cloudme
+msgid "Header Column?"
+msgstr ""
+
+#: vc_shortcode.php:651
+#@ cloudme
+msgid "OT Shared Features"
+msgstr ""
+
+#: vc_shortcode.php:661
+#@ cloudme
+msgid "Icon"
+msgstr ""
+
+#: vc_shortcode.php:664
+#@ cloudme
+msgid "Text Button 1"
+msgstr ""
+
+#: vc_shortcode.php:670
+#: vc_shortcode.php:930
+#: vc_shortcode.php:962
+#: vc_shortcode.php:1038
+#@ cloudme
+msgid "Description"
+msgstr ""
+
+#: vc_shortcode.php:673
+#@ cloudme
+msgid "Text Button 2"
+msgstr ""
+
+#: vc_shortcode.php:679
+#@ cloudme
+msgid "Content Left?"
+msgstr ""
+
+#: vc_shortcode.php:682
+#@ cloudme
+msgid "Text Button 3"
+msgstr ""
+
+#: vc_shortcode.php:690
+#@ cloudme
+msgid "OT Domains Price"
+msgstr ""
+
+#: vc_shortcode.php:729
+#@ cloudme
+msgid "OT Compare Table"
+msgstr ""
+
+#: vc_shortcode.php:738
+#@ cloudme
+msgid "Titles"
+msgstr ""
+
+#: vc_shortcode.php:741
+#@ cloudme
+msgid "Enter titles for element (Note: divide columns with '|')."
+msgstr ""
+
+#: vc_shortcode.php:746
+#@ cloudme
+msgid "Content"
+msgstr ""
+
+#: vc_shortcode.php:749
+#@ cloudme
+msgid "Enter the content ( Note: divide columns with '|' and devide rows with linebreaks (Enter))."
+msgstr ""
+
+#: vc_shortcode.php:766
+#@ cloudme
+msgid "OT Client Logos"
+msgstr ""
+
+#: vc_shortcode.php:784
+#@ cloudme
+msgid "Number"
+msgstr ""
+
+#: vc_shortcode.php:787
+#@ cloudme
+msgid "Number Images Visible. Default: 6."
+msgstr ""
+
+#: vc_shortcode.php:793
+#@ cloudme
+msgid "Carousel Speed"
+msgstr ""
+
+#: vc_shortcode.php:796
+#@ cloudme
+msgid "Default: 5000."
+msgstr ""
+
+#: vc_shortcode.php:807
+#@ cloudme
+msgid "OT Features Box"
+msgstr ""
+
+#: vc_shortcode.php:870
+#@ cloudme
+msgid "OT Services Box"
+msgstr ""
+
+#: vc_shortcode.php:884
+#@ cloudme
+msgid "Type Box"
+msgstr ""
+
+#: vc_shortcode.php:890
+#@ cloudme
+msgid "Box with icon left"
+msgstr ""
+
+#: vc_shortcode.php:892
+#@ cloudme
+msgid "Box with image left"
+msgstr ""
+
+#: vc_shortcode.php:901
+#: vc_shortcode.php:1011
+#: vc_shortcode.php:1100
+#@ cloudme
+msgid "Title"
+msgstr ""
+
+#: vc_shortcode.php:904
+#: vc_shortcode.php:1014
+#@ cloudme
+msgid "Title display in box."
+msgstr ""
+
+#: vc_shortcode.php:910
+#@ cloudme
+msgid "Icon Left"
+msgstr ""
+
+#: vc_shortcode.php:914
+#@ cloudme
+msgid "Upload image left service."
+msgstr ""
+
+#: vc_shortcode.php:920
+#@ cloudme
+msgid "Image Left"
+msgstr ""
+
+#: vc_shortcode.php:924
+#@ cloudme
+msgid "Icon in box. Add class follow: http://fontawesome.io/icons/"
+msgstr ""
+
+#: vc_shortcode.php:933
+#: vc_shortcode.php:965
+#: vc_shortcode.php:1041
+#@ cloudme
+msgid "Detail in box."
+msgstr ""
+
+#: vc_shortcode.php:939
+#@ cloudme
+msgid "Background Box"
+msgstr ""
+
+#: vc_shortcode.php:952
+#@ cloudme
+msgid "OT Support Box"
+msgstr ""
+
+#: vc_shortcode.php:971
+#@ cloudme
+msgid "Icon Image"
+msgstr ""
+
+#: vc_shortcode.php:974
+#@ cloudme
+msgid "Upload icon image"
+msgstr ""
+
+#: vc_shortcode.php:980
+#@ cloudme
+msgid "Big Image"
+msgstr ""
+
+#: vc_shortcode.php:983
+#@ cloudme
+msgid "Upload image left or right"
+msgstr ""
+
+#: vc_shortcode.php:989
+#@ cloudme
+msgid "Description in right?"
+msgstr ""
+
+#: vc_shortcode.php:1001
+#@ cloudme
+msgid "OT VPS Order"
+msgstr ""
+
+#: vc_shortcode.php:1020
+#@ cloudme
+msgid "Top Image"
+msgstr ""
+
+#: vc_shortcode.php:1023
+#@ cloudme
+msgid "Upload image top."
+msgstr ""
+
+#: vc_shortcode.php:1029
+#@ cloudme
+msgid "Number Order"
+msgstr ""
+
+#: vc_shortcode.php:1032
+#@ cloudme
+msgid "Input number int."
+msgstr ""
+
+#: vc_shortcode.php:1052
+#@ cloudme
+msgid "VPS Plans"
+msgstr ""
+
+#: vc_shortcode.php:1061
+#@ cloudme
+msgid "Title Header"
+msgstr ""
+
+#: vc_shortcode.php:1071
+#@ cloudme
+msgid "Label Button Order"
+msgstr ""
+
+#: vc_shortcode.php:1076
+#@ cloudme
+msgid "Start Point"
+msgstr ""
+
+#: vc_shortcode.php:1091
+#@ cloudme
+msgid "VPS Single Plan"
+msgstr ""
+
+#: vc_shortcode.php:1115
+#@ cloudme
+msgid "Ram"
+msgstr ""
+
+#: vc_shortcode.php:1125
+#@ cloudme
+msgid "Price"
+msgstr ""
+
+#: vc_shortcode.php:1130
+#@ cloudme
+msgid "Link"
+msgstr ""
+
+#: vc_shortcode.php:1151
+#@ cloudme
+msgid "OT Testimonials Slider"
+msgstr ""
+
+#: vc_shortcode.php:1174
+#@ cloudme
+msgid "OT Testimonials Grid"
+msgstr ""
+
+#: vc_shortcode.php:1197
+#@ cloudme
+msgid "OT FAQ"
+msgstr ""
+
+#: vc_shortcode.php:1228
+#@ cloudme
+msgid "OT Social Item"
+msgstr ""
+
+#: vc_shortcode.php:1258
+#@ cloudme
+msgid "OT Google Map"
+msgstr ""
+
+#: vc_shortcode.php:1268
+#@ cloudme
+msgid "ID Map"
+msgstr ""
+
+#: vc_shortcode.php:1271
+#@ cloudme
+msgid "Please enter ID Map, map-canvas1, map-canvas2, map-canvas3, ..etc"
+msgstr ""
+
+#: vc_shortcode.php:1277
+#: vc_shortcode.php:1348
+#@ cloudme
+msgid "Height Map"
+msgstr ""
+
+#: vc_shortcode.php:1280
+#: vc_shortcode.php:1351
+#@ cloudme
+msgid "Please enter number height Map, 300, 350, 380, ..etc. Default: 420."
+msgstr ""
+
+#: vc_shortcode.php:1286
+#@ cloudme
+msgid "Latitude"
+msgstr ""
+
+#: vc_shortcode.php:1289
+#: vc_shortcode.php:1298
+#@ cloudme
+msgid "Please enter http://www.latlong.net/ google map"
+msgstr ""
+
+#: vc_shortcode.php:1295
+#@ cloudme
+msgid "Longitude"
+msgstr ""
+
+#: vc_shortcode.php:1305
+#: vc_shortcode.php:1411
+#@ cloudme
+msgid "Zoom Map"
+msgstr ""
+
+#: vc_shortcode.php:1308
+#: vc_shortcode.php:1414
+#@ cloudme
+msgid "Please enter Zoom Map, Default: 15"
+msgstr ""
+
+#: vc_shortcode.php:1314
+#@ cloudme
+msgid "Map color"
+msgstr ""
+
+#: vc_shortcode.php:1317
+#@ cloudme
+msgid "Choose Map color"
+msgstr ""
+
+#: vc_shortcode.php:1327
+#: vc_shortcode.php:1423
+#@ cloudme
+msgid "Icon Map marker, 47 x 68"
+msgstr ""
+
+#: vc_shortcode.php:1338
+#@ cloudme
+msgid "OT Multiple Markers Map"
+msgstr ""
+
+#: vc_shortcode.php:1357
+#@ cloudme
+msgid "Latitude,Longitude 1"
+msgstr ""
+
+#: vc_shortcode.php:1360
+#: vc_shortcode.php:1396
+#@ cloudme
+msgid "Please enter http://www.latlong.net/ Latitude,Longitude google map. Example: 39.98978,-83.00632."
+msgstr ""
+
+#: vc_shortcode.php:1366
+#@ cloudme
+msgid "Infomation 1"
+msgstr ""
+
+#: vc_shortcode.php:1369
+#@ cloudme
+msgid "Description about location 1"
+msgstr ""
+
+#: vc_shortcode.php:1375
+#@ cloudme
+msgid "Latitude,Longitude 2"
+msgstr ""
+
+#: vc_shortcode.php:1378
+#@ cloudme
+msgid "PPlease enter http://www.latlong.net/ Latitude,Longitude google map. Example: 39.98978,-83.00632."
+msgstr ""
+
+#: vc_shortcode.php:1384
+#@ cloudme
+msgid "Infomation 2"
+msgstr ""
+
+#: vc_shortcode.php:1387
+#@ cloudme
+msgid "Description about location 2"
+msgstr ""
+
+#: vc_shortcode.php:1393
+#@ cloudme
+msgid "Latitude,Longitude 3"
+msgstr ""
+
+#: vc_shortcode.php:1402
+#@ cloudme
+msgid "Infomation 3"
+msgstr ""
+
+#: vc_shortcode.php:1405
+#@ cloudme
+msgid "Description about location 3"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:339
+#, php-format
+#@ cloudme
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:403
+#@ cloudme
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. translators: %s: version number
+#: framework/class-tgm-plugin-activation.php:2067
+#, php-format
+#@ cloudme
+msgid "TGMPA v%s"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: framework/class-tgm-plugin-activation.php:2427
+#, php-format
+#@ cloudme
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2618
+#@ cloudme
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2688
+#, php-format
+#@ cloudme
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2693
+#, php-format
+#@ cloudme
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2699
+#, php-format
+#@ cloudme
+msgid "Activate %2$s"
+msgstr ""
+
+#: functions.php:212
+#@ cloudme
+msgid "Congratulations!"
+msgstr ""
+
+#: functions.php:212
+#@ cloudme
+msgid "is available!"
+msgstr ""
+
+#: functions.php:213
+#@ cloudme
+msgid " Sorry!"
+msgstr ""
+
+#: functions.php:213
+#@ cloudme
+msgid " is already taken!"
+msgstr ""
+
