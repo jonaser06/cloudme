@@ -493,7 +493,7 @@ header {
   text-transform: uppercase;
 }
 .page-top .message .btn {
-  background: transparent;
+  background: rgba(0,0,0,.5);
   border: 1px solid #f7ebdf;
   color: #f7ebdf;
   margin-top: 140px;
@@ -506,8 +506,7 @@ header {
   text-decoration: none;
 }
 .top {
-  background: #232e3f;
-  background: rgba(35, 46, 63, 0.6);
+  background: rgba(50, 8, 8, 0.56);
   padding: 0;
   width: 100%;
   position: absolute;
@@ -765,7 +764,7 @@ ul.sf-menu li li:last-child a {
   overflow: hidden;
 }
 .sf-menu li a:hover {
-  background: #37485C;
+  background: #351111;
   text-decoration: none;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -783,7 +782,7 @@ ul.sf-menu li li:last-child a {
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-menu-parent a,
 .sf-menu li.current_page_parent a {
-  background: #37485C;
+  background: #351111;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
