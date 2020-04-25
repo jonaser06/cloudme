@@ -430,6 +430,7 @@ header {
   background-image: url(images/header_bg.jpg);
 }
 .page-top.page-880 h1 span {
+  padding-top: 100px;
   color: #fff;
 }
 .page-top .message {
@@ -485,8 +486,8 @@ header {
 }
 .page-top .message h1 {
   color: #D7D7D7;
-  font-size: 45px;
-  font-weight: 900;
+  font-size: 55px;
+  font-weight: 300;
   margin: 8px 0 0;
   padding: 0;
   text-transform: uppercase;
