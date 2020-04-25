@@ -3017,7 +3017,6 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
   transition: border-radius .1s, background .1s;
 }
 .btn:focus,
