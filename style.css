@@ -501,7 +501,7 @@ header {
   padding: 12px 25px;
 }
 .page-top .message .btn:hover {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   border-color: #000;
   text-decoration: none;
   color: #000;
