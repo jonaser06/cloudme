@@ -727,7 +727,8 @@ nav.desktop-menu {
 }
 .sf-menu ul li:hover,
 .sf-menu ul li a:hover {
-  background: #40546a;
+  /* background: #40546a; */
+  background: #666;
 }
 .sf-menu li {
   float: left;
