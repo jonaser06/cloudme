@@ -875,7 +875,8 @@ ul.sf-menu li li li.sfHover ul {
   display: none;
 }
 .sf-menu ul {
-  background: #37485C;
+  background: #fff;
+  /* background: #37485C; */
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
@@ -894,7 +895,8 @@ ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu ul:after {
   border-color: rgba(127, 140, 141, 0);
-  border-bottom-color: #37485C;
+  /* border-bottom-color: #37485C; */
+  border-bottom-color: #fefefe;
   border-width: 10px;
   left: 17%;
   margin-left: -10px;
