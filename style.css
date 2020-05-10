@@ -784,11 +784,12 @@ ul.sf-menu li li:last-child a {
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-menu-parent a,
 .sf-menu li.current_page_parent a {
-  background: #351111;
-  color: #fff;
+  /* background: #351111; */
+  color: #000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
+  border-bottom: 2px solid #000;
 }
 .sf-menu li li.current-menu-item a:hover,
 .sf-menu li.current-menu-parent li a:hover,
