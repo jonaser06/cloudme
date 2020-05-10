@@ -766,16 +766,17 @@ ul.sf-menu li li:last-child a {
   overflow: hidden;
 }
 .sf-menu li a:hover {
-  background: #351111;
+  /* background: #351111; */
   text-decoration: none;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
   -ms-transition: all .3s;
   transition: all .3s;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid #000;
 }
 .sf-menu li li a:hover {
   border-bottom: 0;
@@ -786,8 +787,8 @@ ul.sf-menu li li:last-child a {
 .sf-menu li.current_page_parent a {
   /* background: #351111; */
   color: #000;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   border-radius: 0px;
   border-bottom: 2px solid #000;
 }
